@@ -1,0 +1,51 @@
+body{
+    background-image: url(fondo2.gif);
+    background-repeat: no-repeat;
+    background-size:cover;
+    .h1{
+        color: aqua;
+    }
+
+
+
+
+.cabeza{
+    background-color:aquamarine;
+    text-decoration-line: none;
+    
+        background-image: url(fondo1.gif);
+       background-position-x: left ;
+
+    }
+
+    .nav{
+        font-size: 30px;
+        text-decoration-line: none;
+        height: max-content;
+
+    }
+
+    img{
+        border-radius: 50%;
+        border-color: blueviolet;
+        border-style:groove;
+        border-width: 7px;
+    transition-duration: 2s;
+
+    img::after{
+        transition-duration: 2s;
+       transition{
+        scale: calc(0.2s);
+        
+       }
+    }
+    
+    }
+    .texto{
+        background-image: url(fondo1.gif);
+        width: 1000px;
+        height: 50px;
+       
+    }
+}
+
